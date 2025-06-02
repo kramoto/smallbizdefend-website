@@ -76,7 +76,7 @@ export default function Home() {
             <p className="text-muted-foreground mb-8">
               At SmallBizDefend, we're on a mission to make top-tier cybersecurity accessible to every small business.
               Founded by an IT Security Consultant with over 15 years of experience protecting businesses from cyber
-              threats, we understand the unique challenges you face.
+              threats, we understand the unique challenges you face.sffff
             </p>
             <p className="text-muted-foreground mb-8">
               We know you don't have time to become a cybersecurity expert – that's our job. Our role is to translate
