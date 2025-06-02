@@ -7,7 +7,11 @@ export default function PrivacyPolicyPage() {
 
       <div className="max-w-4xl mx-auto mt-12 prose prose-slate">
         <p>
-          SmallBizDefend.com ("we", "our", "us") values your privacy. This Privacy Policy explains how we collect, use, and protect your personal data across our global audience. By using our website and services, you agree to the practices described below.
+          Welcome to SmallBizDefend.com (the "Site"). We are committed to protecting your privacy and handling your
+          personal data in an open and transparent manner. This Privacy Policy outlines how we collect, use, disclose,
+          and safeguard your information when you visit our website, use our services (including the "Small Business
+          Cybersecurity Awareness Starter Kit" and the "Securing Your Small Business: First Steps to Digital Safety"
+          workshop), or otherwise interact with us.
         </p>
 
         <p>
@@ -15,22 +19,29 @@ export default function PrivacyPolicyPage() {
           do not access the site or use our services.
         </p>
 
-        <h2>1. Who We Are </h2>
+        <h2>1. Information We Collect</h2>
         <p>
-          SmallBizDefend.com is a cybersecurity consultancy serving clients worldwide. If you have any questions about this policy or your personal data, please contact us:
-          Email: privacy@smallbizdefend.com
+          We may collect information about you in a variety of ways. The information we may collect on the Site
+          includes:
         </p>
 
-        <h2>What Information We Collect:</h2>
-        <p> We may collect the following types of personal data:</p>
+        <h3>Personal Data You Provide to Us:</h3>
         <ul>
           <li>
-            Information You Provide: Name, email address, business information, and payment details (collected via forms, email, or purchases).
+            When you contact us via our contact form or email, we collect your name, email address, and the content of
+            your message.
           </li>
           <li>
-            Automatically Collected Information: IP address, browser type, device info, pages visited, cookies, usage data.
+            When you register for our workshop or purchase our starter kit (potentially through third-party platforms
+            like Gumroad), we or our third-party payment processors may collect your name, email address, billing
+            address, and payment information. Please note that payment information is typically processed directly by
+            secure third-party payment gateways, and we do not store your full credit card details.
           </li>
-          <li>Third-Party Data: Information shared with us via integrated services (e.g., payment platforms, email providers).</li>
+          <li>If you subscribe to our newsletter, we collect your email address.</li>
+          <li>
+            If you leave comments on our blog posts (where this feature is enabled), we may collect your name, email
+            address, and website URL.
+          </li>
         </ul>
 
         <h3>Data Collected Automatically (Usage Data):</h3>
