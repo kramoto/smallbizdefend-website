@@ -1,6 +1,6 @@
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
-import { ArrowRight } from "lucide-react"
+import { ArrowRight } from 'lucide-react'
 
 export default function HeroSection() {
   return (
@@ -9,13 +9,15 @@ export default function HeroSection() {
         <div className="flex flex-col items-center space-y-4 text-center">
           <div className="space-y-2">
             <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl lg:text-6xl">
-              Your Small Business Cybersecurity Shield
+              Your Trusted Cybersecurity Partner
             </h1>
-            <p className="mx-auto max-w-[700px] text-muted-foreground md:text-xl">Simple, Actionable, Affordable.</p>
+            <p className="mx-auto max-w-[700px] text-muted-foreground md:text-xl">
+              Making top-tier cybersecurity accessible to every small business.
+            </p>
           </div>
           <p className="mx-auto max-w-[700px] text-muted-foreground md:text-lg">
-            We simplify cybersecurity, transforming it from a complex burden into an empowering asset. Expert insights,
-            practical tools, and straightforward solutions designed specifically for small businesses.
+            We translate complex security concepts into simple, actionable steps that protect your business without
+            breaking your budget or overwhelming your team.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
             <Button size="lg" asChild>
