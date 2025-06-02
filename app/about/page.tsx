@@ -74,7 +74,7 @@ export default function Home() {
           <div className="max-w-3xl mx-auto text-center">
             <h2 className="text-3xl font-bold tracking-tight mb-6">Your Trusted Cybersecurity Partner</h2>
             <p className="text-muted-foreground mb-8">
-              At SmallBizDefend, we're on a mission to make top-tier cybersecurity accessible to every small business.
+             AAAAAAAAA     At SmallBizDefend, we're on a mission to make top-tier cybersecurity accessible to every small business.
               Founded by an IT Security Consultant with over 15 years of experience protecting businesses from cyber
               threats, we understand the unique challenges you face.
             </p>
