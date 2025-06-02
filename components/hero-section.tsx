@@ -17,7 +17,7 @@ export default function HeroSection() {
           </div>
           <p className="mx-auto max-w-[700px] text-muted-foreground md:text-lg">
             We translate complex security concepts into simple, actionable steps that protect your business without
-            breaking your budget or overwhelming your team.AAAAAA
+            breaking your budget or overwhelming your team.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
             <Button size="lg" asChild>
