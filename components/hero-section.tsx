@@ -1,6 +1,6 @@
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
-import { ArrowRight } from "lucide-react"
+import { ArrowRight, Check } from "lucide-react"
 
 export default function HeroSection() {
   return (
@@ -19,11 +19,24 @@ export default function HeroSection() {
             We help small businesses secure their systems with simple, step-by-step protection — no IT team, no jargon,
             no overwhelm.
           </p>
-          <div className="mx-auto max-w-[700px] text-muted-foreground md:text-lg space-y-2">
-            <p>✅ Built for non-tech business owners</p>
-            <p>✅ Easy to implement — no experience needed</p>
-            <p>✅ Proven by 15+ years in real-world security consulting</p>
+
+          <div className="max-w-2xl mx-auto">
+            <div className="grid gap-4 md:grid-cols-1">
+              <div className="flex items-start">
+                <Check className="h-5 w-5 text-primary mr-3 mt-0.5 flex-shrink-0" />
+                <span className="text-muted-foreground">Built for non-tech business owners</span>
+              </div>
+              <div className="flex items-start">
+                <Check className="h-5 w-5 text-primary mr-3 mt-0.5 flex-shrink-0" />
+                <span className="text-muted-foreground">Easy to implement — no experience needed</span>
+              </div>
+              <div className="flex items-start">
+                <Check className="h-5 w-5 text-primary mr-3 mt-0.5 flex-shrink-0" />
+                <span className="text-muted-foreground">Proven by 15+ years in real-world security consulting</span>
+              </div>
+            </div>
           </div>
+
           <div className="flex flex-col sm:flex-row gap-4">
             <Button size="lg" asChild>
               <Link href="/workshop">

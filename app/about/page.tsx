@@ -13,7 +13,7 @@ export default function Home() {
       <section className="py-16 bg-slate-50">
         <div className="container px-4 md:px-6">
           <h2 className="text-3xl font-bold tracking-tight text-center mb-8">
-            Overwhelmed by Cyber Threats? You're Not Alone.AAAAAAAAAAa
+            Overwhelmed by Cyber Threats? You're Not Alone.
           </h2>
           <div className="max-w-3xl mx-auto">
             <p className="text-muted-foreground mb-6">
