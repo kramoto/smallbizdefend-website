@@ -12,12 +12,15 @@ export default function HeroSection() {
               Your Trusted Cybersecurity Partner
             </h1>
             <p className="mx-auto max-w-[700px] text-muted-foreground md:text-xl">
-              Making top-tier cybersecurity accessible to every small business.
+              Enterprise-Level Cybersecurity — Without the Enterprise Price Tag.
             </p>
           </div>
           <p className="mx-auto max-w-[700px] text-muted-foreground md:text-lg">
-            We translate complex security concepts into simple, actionable steps that protect your business without
-            breaking your budget or overwhelming your team.
+            We help small businesses secure their systems with simple, step-by-step protection — no IT team, no jargon, no overwhelm.
+
+✅ Built for non-tech business owners
+✅ Easy to implement — no experience needed
+✅ Proven by 15+ years in real-world security consulting
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
             <Button size="lg" asChild>
