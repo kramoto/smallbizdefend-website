@@ -28,7 +28,7 @@ export default function ContactPage() {
               <Mail className="h-10 w-10 text-primary mb-4" />
               <h3 className="text-lg font-semibold mb-2">Email Us</h3>
               <p className="text-muted-foreground mb-4">For direct correspondence, you can reach us at:</p>
-              <p className="font-medium">hello@smallbizdefend.com</p>
+              <p className="font-medium">contact@smallbizdefend.com</p>
             </div>
           </Card>
 
@@ -40,7 +40,7 @@ export default function ContactPage() {
               <p className="font-medium">
                 Monday - Friday
                 <br />
-                9:00 AM - 5:00 PM EST
+                9:00 AM - 5:00 PM CET
               </p>
             </div>
           </Card>
