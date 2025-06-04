@@ -1,97 +1,165 @@
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
-import { Shield, Users, BookOpen } from 'lucide-react'
-import HeroSection from "@/components/hero-section"
-import FeatureCard from "@/components/feature-card"
+import { Shield, Users, Target, CheckCircle } from "lucide-react"
+import PageHeader from "@/components/page-header"
 
-export default function Home() {
+export default function AboutPage() {
   return (
     <div className="flex flex-col">
-      <HeroSection />
+      <PageHeader
+        title="About SmallBizDefend"
+        description="Your trusted partner in making cybersecurity accessible, practical, and affordable for small businesses."
+      />
 
-      {/* Problem Section */}
-      <section className="py-16 bg-slate-50">
-        <div className="container px-4 md:px-6">
-          <h2 className="text-3xl font-bold tracking-tight text-center mb-8">
-            Overwhelmed by Cyber Threats? You're Not Alone.
-          </h2>
-          <div className="max-w-3xl mx-auto">
-            <p className="text-muted-foreground mb-6">
-              Many small business owners feel the pressure. You might be worried about phishing scams that look
-              increasingly convincing, the nightmare of a ransomware attack locking up your critical files, or simply
-              the nagging feeling that your customer data isn't as secure as it should be.
-            </p>
-            <p className="text-muted-foreground mb-6">
-              Perhaps you lack a dedicated IT team, or the technical jargon feels like another language. These are
-              common concerns, and they are valid. The reality is, small businesses are increasingly targeted, precisely
-              because they are often perceived as easier targets.
-            </p>
-            <p className="text-muted-foreground">
-              But being a small business doesn't mean you have to be an easy target. We believe that robust
-              cybersecurity shouldn't be a luxury reserved for large corporations. We're here to show you how to build a
-              strong defense, step by step.
-            </p>
-          </div>
-        </div>
-      </section>
-
-      {/* Services Section */}
+      {/* Mission Section */}
       <section className="py-16">
         <div className="container px-4 md:px-6">
-          <h2 className="text-3xl font-bold tracking-tight text-center mb-12">How We Help You Defend Your Business</h2>
-
-          <div className="grid gap-8 md:grid-cols-3">
-            <FeatureCard
-              icon={<BookOpen className="h-10 w-10 text-primary" />}
-              title="Expert Guides & Tool Reviews"
-              description="Knowledge is your first line of defense. Our comprehensive blog is packed with in-depth articles, actionable tips, and unbiased reviews of cybersecurity tools specifically chosen for small businesses."
-              ctaText="Read Our Latest Articles"
-              ctaLink="/blog"
-            />
-
-            <FeatureCard
-              icon={<Users className="h-10 w-10 text-primary" />}
-              title="Cybersecurity Awareness Starter Kit"
-              description="Your employees can be your strongest security asset, or your weakest link. Our Starter Kit is a done-for-you content package designed to equip your team with essential cybersecurity knowledge."
-              ctaText="Discover the Starter Kit"
-              ctaLink="/services"
-            />
-
-            <FeatureCard
-              icon={<Shield className="h-10 w-10 text-primary" />}
-              title="Online Workshop: First Steps to Digital Safety"
-              description="Join our practical, 90-minute online workshop designed specifically for non-tech owners and their teams. You'll walk away with confidence and an actionable plan."
-              ctaText="Learn About the Workshop"
-              ctaLink="/workshop"
-            />
+          <h2 className="text-3xl font-bold tracking-tight text-center mb-8">Our Mission</h2>
+          <div className="max-w-3xl mx-auto">
+            <p className="text-muted-foreground mb-6">
+              At SmallBizDefend, we believe that robust cybersecurity shouldn't be a luxury reserved for large
+              corporations. Every small business deserves protection from cyber threats, regardless of their technical
+              expertise or budget constraints.
+            </p>
+            <p className="text-muted-foreground">
+              Our mission is to democratize cybersecurity by translating complex security concepts into simple,
+              actionable steps that any business owner can implement and understand.
+            </p>
           </div>
         </div>
       </section>
 
-      {/* About Section */}
+      {/* Founder Story Section */}
       <section className="py-16 bg-slate-50">
         <div className="container px-4 md:px-6">
-          <div className="max-w-3xl mx-auto text-center">
-            <h2 className="text-3xl font-bold tracking-tight mb-6">Your Trusted Cybersecurity Partner</h2>
-            <p className="text-muted-foreground mb-8">
-             At SmallBizDefend, we're on a mission to make top-tier cybersecurity accessible to every small business.
-              Founded by an IT Security Consultant with over 15 years of experience protecting businesses from cyber
-              threats, we understand the unique challenges you face.
+          <h2 className="text-3xl font-bold tracking-tight text-center mb-8">Founded by Experience</h2>
+          <div className="max-w-3xl mx-auto">
+            <p className="text-muted-foreground mb-6">
+              SmallBizDefend was founded by an IT Security Consultant with over 15 years of hands-on experience
+              protecting businesses from cyber threats. Having worked with companies of all sizes, from startups to
+              enterprises, our founder recognized a critical gap in the market.
+            </p>
+            <p className="text-muted-foreground mb-6">
+              While large corporations had dedicated IT teams and unlimited budgets for cybersecurity, small businesses
+              were left vulnerable, often becoming easy targets for cybercriminals. This realization sparked the
+              creation of SmallBizDefend – a company dedicated exclusively to serving the unique needs of small
+              businesses.
+            </p>
+            <p className="text-muted-foreground">
+              Our approach is born from real-world experience, not theoretical knowledge. We've seen what works, what
+              doesn't, and most importantly, what small businesses actually need to stay secure.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Our Approach Section */}
+      <section className="py-16">
+        <div className="container px-4 md:px-6">
+          <h2 className="text-3xl font-bold tracking-tight text-center mb-8">Our Approach</h2>
+          <div className="max-w-3xl mx-auto">
+            <div className="space-y-6">
+              <div className="flex items-start">
+                <CheckCircle className="h-6 w-6 text-primary mr-3 mt-0.5 flex-shrink-0" />
+                <div>
+                  <h3 className="font-semibold mb-2">No Jargon, Just Results</h3>
+                  <p className="text-muted-foreground">
+                    We speak in plain English, not technical jargon. Our explanations are clear, actionable, and
+                    designed for business owners who need to focus on running their business, not becoming IT experts.
+                  </p>
+                </div>
+              </div>
+
+              <div className="flex items-start">
+                <CheckCircle className="h-6 w-6 text-primary mr-3 mt-0.5 flex-shrink-0" />
+                <div>
+                  <h3 className="font-semibold mb-2">Budget-Conscious Solutions</h3>
+                  <p className="text-muted-foreground">
+                    We understand that small businesses operate on tight budgets. Our recommendations prioritize
+                    cost-effective solutions that deliver maximum security impact without breaking the bank.
+                  </p>
+                </div>
+              </div>
+
+              <div className="flex items-start">
+                <CheckCircle className="h-6 w-6 text-primary mr-3 mt-0.5 flex-shrink-0" />
+                <div>
+                  <h3 className="font-semibold mb-2">Step-by-Step Implementation</h3>
+                  <p className="text-muted-foreground">
+                    We break down complex security measures into manageable, step-by-step processes that you can
+                    implement gradually, without disrupting your daily operations.
+                  </p>
+                </div>
+              </div>
+
+              <div className="flex items-start">
+                <CheckCircle className="h-6 w-6 text-primary mr-3 mt-0.5 flex-shrink-0" />
+                <div>
+                  <h3 className="font-semibold mb-2">Practical, Real-World Focus</h3>
+                  <p className="text-muted-foreground">
+                    Our advice is based on real-world threats and practical solutions. We focus on what actually matters
+                    for small businesses, not theoretical scenarios that may never apply to your situation.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Values Section */}
+      <section className="py-16 bg-slate-50">
+        <div className="container px-4 md:px-6">
+          <h2 className="text-3xl font-bold tracking-tight text-center mb-12">What Drives Us</h2>
+          <div className="grid gap-8 md:grid-cols-3">
+            <div className="text-center">
+              <Shield className="h-12 w-12 text-primary mx-auto mb-4" />
+              <h3 className="text-xl font-semibold mb-3">Security First</h3>
+              <p className="text-muted-foreground">
+                We believe every business, regardless of size, deserves enterprise-level protection from cyber threats.
+              </p>
+            </div>
+
+            <div className="text-center">
+              <Users className="h-12 w-12 text-primary mx-auto mb-4" />
+              <h3 className="text-xl font-semibold mb-3">People-Centered</h3>
+              <p className="text-muted-foreground">
+                Technology serves people, not the other way around. Our solutions are designed with human usability in
+                mind.
+              </p>
+            </div>
+
+            <div className="text-center">
+              <Target className="h-12 w-12 text-primary mx-auto mb-4" />
+              <h3 className="text-xl font-semibold mb-3">Results-Oriented</h3>
+              <p className="text-muted-foreground">
+                We measure our success by your security improvements, not by how complex our solutions appear.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Why Choose Us Section */}
+      <section className="py-16">
+        <div className="container px-4 md:px-6">
+          <h2 className="text-3xl font-bold tracking-tight text-center mb-8">Why Choose SmallBizDefend?</h2>
+          <div className="max-w-3xl mx-auto">
+            <p className="text-muted-foreground mb-6">
+              Unlike generic cybersecurity companies that try to serve everyone, we specialize exclusively in small
+              business cybersecurity. This focus allows us to understand your unique challenges and provide solutions
+              that actually fit your reality.
             </p>
             <p className="text-muted-foreground mb-8">
-              We know you don't have time to become a cybersecurity expert – that's our job. Our role is to translate
-              complex security concepts into simple, actionable steps that protect your business without breaking your
-              budget or overwhelming your team.
-            </p>
-            <p className="text-muted-foreground mb-8">
-              Cybersecurity doesn't have to be complex or costly. Let us help you defend what matters most.
+              We're not here to sell you expensive enterprise software or overwhelm you with unnecessary complexity.
+              We're here to help you build a strong, practical defense that protects what matters most to your business.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button asChild>
-                <Link href="/blog">Explore Our Resources</Link>
+                <Link href="/services">Explore Our Services</Link>
               </Button>
               <Button variant="outline" asChild>
-                <Link href="/services">View Our Services</Link>
+                <Link href="/contact">Get in Touch</Link>
               </Button>
             </div>
           </div>
